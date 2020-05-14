@@ -20,7 +20,6 @@ class Counter extends Component {
         // console.log('Increment Clicked', this); 
         this.state.count++; 
         this.setState({count:this.state.count}); 
-        console.log("test"); 
     }
 
     render() {  
